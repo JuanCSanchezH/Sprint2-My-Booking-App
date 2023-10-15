@@ -1,18 +1,22 @@
-import "./style.sass";
+import "../navbar/style.scss";
 
-export const Navbar = () => {
+const Navbar = () => {
   return (
-    <div className="container">
+    <div className="container-nav">
       <div className="overlap-group">
-        <img className="oval" alt="Oval" src="oval-1.svg" />
+        <img alt="Oval" src="https://res.cloudinary.com/ddsed1j6u/image/upload/v1697320168/Booking-Flight-Sprint/kzc4raqakpiworncmu25.svg " />
+        <p className="text-wrapper">E-flight</p>
       </div>
-      <div className="text-wrapper">E-flight</div>
-      <img className="frame" alt="Frame" src="https://res.cloudinary.com/ddsed1j6u/image/upload/v1697320168/Booking-Flight-Sprint/kzc4raqakpiworncmu25.svg " />
-      <div className="rectangle-wrapper">
-        <img className="rectangle" alt="Rectangle" src="https://res.cloudinary.com/ddsed1j6u/image/upload/v1697320776/Booking-Flight-Sprint/ao8rezhj2pvwtckni3cb.png " />
+      <div className="frame">
+        <p>USD</p>
+        <img alt="Frame" src="https://res.cloudinary.com/ddsed1j6u/image/upload/v1697320399/Booking-Flight-Sprint/izn1yycloyjf861vzwtf.svg " />
+        <img alt="Frame" src="https://res.cloudinary.com/ddsed1j6u/image/upload/v1697320492/Booking-Flight-Sprint/wpecgjsdm6agpmgmtzas.svg" />
+        <div>
+          <img className="user-img" alt="Rectangle" src="https://res.cloudinary.com/ddsed1j6u/image/upload/v1697320776/Booking-Flight-Sprint/ao8rezhj2pvwtckni3cb.png " />
+        </div>
       </div>
-      <img className="img" alt="Frame" src="https://res.cloudinary.com/ddsed1j6u/image/upload/v1697320399/Booking-Flight-Sprint/izn1yycloyjf861vzwtf.svg " />
-      <div className="div">USD</div>
     </div>
   );
 };
+
+export default Navbar;
