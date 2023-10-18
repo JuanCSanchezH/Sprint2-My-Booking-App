@@ -59,7 +59,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="company-content">
-        <p>© 2022 Company, Inc. • Privacy • Termns</p>
+        <p>© 2022 Company, Inc. • Privacy • Terms</p>
       </div>
     </footer>
   );

@@ -1,0 +1,51 @@
+
+.price_details{
+  &_container{
+    border: 1px solid red;
+    width: 328px;
+    border-radius: 8px;
+    background: #FEFEFE;
+    box-shadow: 0px 0px 1px 0px rgba(23, 26, 31, 0.07), 0px 0px 2px 0px rgba(23, 26, 31, 0.12);
+  }
+
+  &_title{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    & span{
+      font-size: 20px;
+      width: 20px;
+      height: 20px;
+      color: #11d396;
+    }
+  }
+  &_basic,
+  &_tax,
+  &_regular,
+  &_save,
+  &_total{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    p {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+  }
+}
+
+hr {
+  border: 1px solid #ddd;
+  margin: 15px 0;
+}
+
+.price_details_total{
+  &:nth-child(2){
+    color: #11d396;
+  }
+}
