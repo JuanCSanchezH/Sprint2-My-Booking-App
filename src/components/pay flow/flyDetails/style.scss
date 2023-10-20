@@ -1,0 +1,41 @@
+@use "../mixins" as *;
+.fly_details{
+  &_container{
+    @include container-details;
+  }
+  &_title{
+    @include title-style;
+    display: flex;
+    align-items: center;
+    & img{
+      margin-right: 8px;
+      width: 16px;
+      height: 16px;
+    }
+  }
+  &_date{
+    border: 1px solid black;
+    width: 60px;
+    height: 70px;
+    display: inline-flex;
+    padding: 9px 25px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background: #F7F8F9;
+    box-shadow: 0px 2px 5px 0px rgba(247, 248, 249, 0.09), 0px 0px 2px 0px rgba(247, 248, 249, 0.12);
+    & p:nth-child(1){
+      @include date-style;
+      margin: 0;
+    }
+    & p:nth-child(2){
+      @include date-style($color:#565E6C,$font-size: 14px,$line-height: 22px);
+      margin: 0;
+    }
+  }
+}
+hr {
+  width: 328px;
+  border: 1px solid #ddd;
+}

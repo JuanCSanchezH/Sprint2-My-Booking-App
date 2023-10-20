@@ -22,3 +22,18 @@
   font-weight: $font-weight;
   line-height: $line-height;
 }
+
+@mixin container-details{
+    width: 328px;
+    border-radius: 8px;
+    background: #FEFEFE;
+    box-shadow: 0px 0px 1px 0px rgba(23, 26, 31, 0.07), 0px 0px 2px 0px rgba(23, 26, 31, 0.12);
+    padding: 16px;
+}
+@mixin date-style($color:#6c6cfe, $font-size: 18px, $line-height:28px){
+  color: $color;
+  font-size: $font-size;
+  font-style: normal;
+  font-weight: 400;
+  line-height: $line-height;
+}
