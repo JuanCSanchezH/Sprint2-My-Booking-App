@@ -8,10 +8,17 @@
   margin-bottom: 10px;
   p {
     color: $color;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: $font-size;
     font-style: normal;
     font-weight: $font-weight;
     line-height: $line-height;
   }
+}
+
+@mixin title-style($font-size:20px,$font-weight:700,$color:#323842, $line-height:30px) {
+  color: $color;
+  font-size: $font-size;
+  font-style: normal;
+  font-weight: $font-weight;
+  line-height: $line-height;
 }

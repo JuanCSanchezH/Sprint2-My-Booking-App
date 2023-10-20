@@ -4,7 +4,8 @@ export const PriceDetails = () => {
   return (
     <div className="price_details_container">
       <h2 className="price_details_title">
-        <span>$</span>Price details
+        <img src="https://res.cloudinary.com/dsgfgsjud/image/upload/v1697775157/e-flight/w0dh6kvu2srueizf4bjm.svg" />
+        Price details
       </h2>
       <hr />
       <div className="price_details_basic">
