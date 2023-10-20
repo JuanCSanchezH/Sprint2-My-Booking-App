@@ -23,6 +23,7 @@ export const PriceDetails = () => {
         <p>Save</p>
         <p>- $1.5</p>
       </div>
+      <hr />
       <div className="price_details_total">
         <p>Total</p>
         <p>$148.5</p>

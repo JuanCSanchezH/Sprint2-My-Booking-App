@@ -1,11 +1,13 @@
 
+@use '../mixins' as *;
 .price_details{
   &_container{
-    border: 1px solid red;
+    // border: 1px solid red;
     width: 328px;
-    border-radius: 8px;
+    height: calc(280px - 16px);
     background: #FEFEFE;
     box-shadow: 0px 0px 1px 0px rgba(23, 26, 31, 0.07), 0px 0px 2px 0px rgba(23, 26, 31, 0.12);
+    padding: 16px;
   }
 
   &_title{
@@ -23,29 +25,33 @@
       color: #11d396;
     }
   }
-  &_basic,
-  &_tax,
-  &_regular,
-  &_save,
+  &_basic{
+    @include flex-container;
+  }
+  &_tax{
+    @include flex-container;
+  }
+  &_regular{
+    @include flex-container;
+  }
+  &_save{
+    @include flex-container($color:#FE902B);
+    margin-bottom: 20px;
+    & p:nth-child(2){
+      font-weight: 600;
+    }
+  }
   &_total{
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    margin-bottom: 10px;
-    p {
+    @include flex-container;
+    & p:nth-child(2){
+      color: #11d396;
       font-size: 16px;
-      line-height: 1.5;
+      font-weight: 600;
     }
   }
 }
 
 hr {
+  width: 328px;
   border: 1px solid #ddd;
-  margin: 15px 0;
-}
-
-.price_details_total{
-  &:nth-child(2){
-    color: #11d396;
-  }
 }
