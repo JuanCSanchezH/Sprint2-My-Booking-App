@@ -37,3 +37,15 @@
   font-weight: 400;
   line-height: $line-height;
 }
+
+
+@mixin image-style($s) {
+  display: flex;
+  align-items: center;
+  img {
+    width: $s;
+    height: $s;
+    margin-right: 6px;
+  }
+}
+
