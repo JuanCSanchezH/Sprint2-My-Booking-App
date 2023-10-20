@@ -1,20 +1,19 @@
 @use "../mixins" as *;
-.fly_details{
-  &_container{
+.fly_details {
+  &_container {
     @include container-details;
   }
-  &_title{
+  &_title {
     @include title-style;
     display: flex;
     align-items: center;
-    & img{
+    & img {
       margin-right: 8px;
       width: 16px;
       height: 16px;
     }
   }
-  &_date{
-    border: 1px solid black;
+  &_date {
     width: 60px;
     height: 70px;
     display: inline-flex;
@@ -23,15 +22,103 @@
     justify-content: center;
     align-items: center;
     border-radius: 4px;
-    background: #F7F8F9;
-    box-shadow: 0px 2px 5px 0px rgba(247, 248, 249, 0.09), 0px 0px 2px 0px rgba(247, 248, 249, 0.12);
-    & p:nth-child(1){
+    background: #f7f8f9;
+    box-shadow: 0px 2px 5px 0px rgba(247, 248, 249, 0.09),
+      0px 0px 2px 0px rgba(247, 248, 249, 0.12);
+    & p:nth-child(1) {
       @include date-style;
       margin: 0;
     }
-    & p:nth-child(2){
-      @include date-style($color:#565E6C,$font-size: 14px,$line-height: 22px);
+    & p:nth-child(2) {
+      @include date-style(
+        $color: #565e6c,
+        $font-size: 14px,
+        $line-height: 22px
+      );
       margin: 0;
+    }
+  }
+  &_cloudy {
+    @include title-style(
+      $font-size: 14px,
+      $font-weight: 600,
+      $line-height: 22px
+    );
+    display: flex;
+    align-items: center;
+    .img_container {
+      width: 28px;
+      height: 28px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 4px;
+      background: #0d78c8;
+      margin-right: 6px;
+      img {
+        width: 18px;
+        height: 18px;
+      }
+    }
+  }
+  &_destiny {
+    @include title-style(
+      $font-size: 14px,
+      $font-weight: 400,
+      $line-height: 22px,
+      $color: #8f949f
+    );
+  }
+  &_class {
+    @include title-style(
+      $font-size: 14px,
+      $font-weight: 400,
+      $line-height: 22px,
+      $color: #fe902b
+    );
+    display: flex;
+    align-items: center;
+    img {
+      width: 16px;
+      height: 16px;
+      margin-right: 6px;
+    }
+  }
+  &_time {
+    height: 46px;
+    width: 90px;
+    display: flex;
+    flex-direction: column;
+
+    p {
+      margin-block-start: 0;
+      margin-block-end: 0;
+      @include title-style(
+        $font-size: 16px,
+        $font-weight: 600,
+        $line-height: 26px,
+        $color: #171a1f
+      );
+    }
+    .fly_details_duration {
+      // border: 2px solid#c80da9;
+      height: 16px;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      p {
+        @include title-style(
+          $font-size: 14px,
+          $font-weight: 400,
+          $line-height: 22px,
+          $color: #2323fe
+        );
+      }
+      img {
+        width: 12px;
+        height: 12px;
+        margin-right: 6px;
+      }
     }
   }
 }
