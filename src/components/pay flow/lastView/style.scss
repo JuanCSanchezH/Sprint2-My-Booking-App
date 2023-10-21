@@ -1,11 +1,14 @@
-.main_container{
+@use "../mixins" as *;
+@use "./barcode";
+@use "./info";
+
+.main_container {
   // border: 2px solid black;
   position: relative;
   width: 782px;
 }
 
-.Secondary{
+.Secondary {
   position: absolute;
-
   right: 0;
 }

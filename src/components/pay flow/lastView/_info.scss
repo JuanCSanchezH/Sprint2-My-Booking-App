@@ -1,0 +1,75 @@
+@use "../mixins" as *;
+
+.info {
+  border: 1px solid green;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(784.167px - 213.16px);
+  height: 343.675px;
+  padding: 25px;
+  &_cloudy {
+    @include title-style(
+      $font-size: 14px,
+      $font-weight: 600,
+      $line-height: 22px
+    );
+    display: flex;
+    .img_container {
+      width: 28px;
+      height: 28px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 4px;
+      background: #0d78c8;
+      margin-right: 6px;
+      img {
+        width: 18px;
+        height: 18px;
+      }
+    }
+  }
+  &_baggage {
+    // border: 1px solid blue;
+    @include image-style(16px);
+
+    & div {
+      margin: 2px;
+      display: flex;
+      justify-content: center;
+      background-color: #dde0e5;
+      border-radius: 14px;
+      height: 28px;
+      width: 54px;
+
+      @include title-style(
+        $color: #171a1f,
+        $font-size: 12px,
+        $font-weight: 400,
+        $line-height: 20px
+      );
+    }
+  }
+  &_top{
+    display: flex;
+    justify-content: space-between;
+  }
+  &_passenger_name{
+    // border: 1px solid red;
+    @include title-style(
+      $font-size: 14px,
+      $font-weight: 400,
+      $line-height: 14px
+    );
+    &_title{
+      color: #8f949f;
+      line-height: 22px;
+    }
+    &_name{
+      color: #171a1f;
+      font-size: 16px;
+      line-height: 26px;
+    }
+  }
+}

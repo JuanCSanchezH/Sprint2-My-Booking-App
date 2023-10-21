@@ -14,24 +14,26 @@ export const Ticket = () => {
       />
 
       <div className="info">
-        <div className="info_cloudy">
-          <div className="img_container">
-            <img src="https://res.cloudinary.com/dsgfgsjud/image/upload/v1697776020/e-flight/bdgedjk8t2mz7g95fqrw.svg" />
+        <div className="info_top">
+          <div className="info_cloudy">
+            <div className="img_container">
+              <img src="https://res.cloudinary.com/dsgfgsjud/image/upload/v1697776020/e-flight/bdgedjk8t2mz7g95fqrw.svg" />
+            </div>
+            <p>Cloudy Airlines</p>
           </div>
-          <p>Cloudy Airlines</p>
-        </div>
-        <div className="info_baggage">
-          <img src="https://res.cloudinary.com/dsgfgsjud/image/upload/v1697923961/e-flight/yvmtsmg88anbzi0gjolh.png" />
-          <div>
-            <p>2x23kg</p>
-          </div>
-          <div>
-            <p>1x8kg</p>
+          <div className="info_baggage">
+            <img src="https://res.cloudinary.com/dsgfgsjud/image/upload/v1697923961/e-flight/yvmtsmg88anbzi0gjolh.png" />
+            <div>
+              <p>2x23kg</p>
+            </div>
+            <div>
+              <p>1x8kg</p>
+            </div>
           </div>
         </div>
         <div className="info_passenger_name">
-          <h3>Passenger:</h3>
-          <h2>ANNA ANDERSON</h2>
+          <span className="info_passenger_name_title">Passenger: </span>
+          <span className="info_passenger_name_name">ANNA ANDERSON</span>
         </div>
         <div className="info_class">
           <img src="https://res.cloudinary.com/dsgfgsjud/image/upload/v1697775157/e-flight/u4xet5jz0lc4mnprjmzb.svg" />
@@ -60,20 +62,20 @@ export const Ticket = () => {
         </div>
       </div>
       <div className="barcode">
-        <h2 className="info_title">
+        <h2 className="barcode_title">
           <img src="https://res.cloudinary.com/ddsed1j6u/image/upload/v1697320168/Booking-Flight-Sprint/kzc4raqakpiworncmu25.svg" />
           E-flight
         </h2>
-        <div className="info_ID">
+        <div className="barcode_ID">
           <p>Booking ID</p>
           <p>65980165</p>
         </div>
-        <div className="info_airline_code">
+        <div className="barcode_airline_code">
           <p>Airline Booking Code</p>
           <p>CA-6018</p>
         </div>
-        <div className="info_barcode">
-          <Barcode value="09197517 3759231 021 21 A" lineColor="#ffff"/>
+        <div className="barcode_barcode">
+          <Barcode value="09197517 3759231 021 21 A" />
         </div>
       </div>
     </div>
