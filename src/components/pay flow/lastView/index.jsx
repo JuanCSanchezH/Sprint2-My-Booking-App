@@ -39,15 +39,20 @@ export const Ticket = () => {
           <img src="https://res.cloudinary.com/dsgfgsjud/image/upload/v1697775157/e-flight/u4xet5jz0lc4mnprjmzb.svg" />
           <p>Economy</p>
         </div>
-        <div className="info_time_start">
-          <p>23:15</p>
-          <p>Houston (HOU)</p>
-          <p>9 Feb, 2023</p>
+        <div className="info_time">
+          <div className="info_time_start">
+            <p>23:15</p>
+            <p>Houston (HOU)</p>
+            <p>9 Feb, 2023</p>
+          </div>
+          <div className="info_time_end">
+            <p>1:25</p>
+            <p>Los Angeles (LAS)</p>
+            <p>10 Feb, 2023</p>
+          </div>
+          <div className="info_barcode_vertical">
+          <Barcode value="09197517 3759231 021 21 A" width={0.5} height={55} fontSize={7} background="#F8F9FA"/>
         </div>
-        <div className="info_time_end">
-          <p>1:25</p>
-          <p>Los Angeles (LAS)</p>
-          <p>10 Feb, 2023</p>
         </div>
         <div className="info_duration">
           <img src="https://res.cloudinary.com/dsgfgsjud/image/upload/v1697775157/e-flight/lrhbnfguezc5vpcgv9vw.svg" />
@@ -56,9 +61,6 @@ export const Ticket = () => {
         <div className="info_footer">
           <p>Check-in:9th Feb 2023 at 21:20</p>
           <p>*All time displayed are local</p>
-        </div>
-        <div className="info_barcode_vertical">
-          <Barcode value="09197517 3759231 021 21 A" />
         </div>
       </div>
       <div className="barcode">
@@ -75,7 +77,7 @@ export const Ticket = () => {
           <p>CA-6018</p>
         </div>
         <div className="barcode_barcode">
-          <Barcode value="09197517 3759231 021 21 A" />
+        <Barcode value="09197517 3759231 021 21 A" width={0.5} height={55} fontSize={7} background="#0A7956" lineColor="#ffff"/>
         </div>
       </div>
     </div>

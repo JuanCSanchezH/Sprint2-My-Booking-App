@@ -72,4 +72,96 @@
       line-height: 26px;
     }
   }
+  &_class{
+    p {
+      margin-block-start: 0;
+      margin-block-end: 0;
+    }    
+    margin-bottom: 15px;
+    @include title-style(
+      $font-size: 14px,
+      $font-weight: 400,
+      $line-height: 22px,
+      $color: #fe902b
+    );
+    @include image-style(16px);
+  }
+  &_time{
+    display: flex;
+    justify-content: space-between;
+    // border: 1px solid red;
+    &_start{
+      // border: 1px solid red;
+      width: 100px;
+      & p:nth-child(1){
+        margin-block-start: 0;
+        margin-block-end: 0;
+        @include title-style(
+          $font-size: 32px,
+          $font-weight: 500,
+          $line-height: 48px,
+          $color: #2323fe
+        );
+      }
+      & p:nth-child(2){
+        margin-block-start: 0;
+        margin-block-end: 0;
+        @include title-style(
+          $font-size: 14px,
+          $font-weight: 500,
+          $line-height: 22px,
+          $color: #171a1f
+        );
+      }
+      & p:nth-child(3){
+        margin-block-start: 0;
+        margin-block-end: 0;
+        @include title-style(
+          $font-size: 14px,
+          $font-weight: 400,
+          $line-height: 22px,
+          $color: #8f949f
+        );
+      }
+    }
+    &_end{
+      // border: 1px solid red;
+      & p:nth-child(1){
+        margin-block-start: 0;
+        margin-block-end: 0;
+        @include title-style(
+          $font-size: 32px,
+          $font-weight: 500,
+          $line-height: 48px,
+          $color: #2323fe
+        );
+      }
+      & p:nth-child(2){
+        margin-block-start: 0;
+        margin-block-end: 0;
+        @include title-style(
+          $font-size: 14px,
+          $font-weight: 500,
+          $line-height: 22px,
+          $color: #171a1f
+        );
+      }
+      & p:nth-child(3){
+        margin-block-start: 0;
+        margin-block-end: 0;
+        @include title-style(
+          $font-size: 14px,
+          $font-weight: 400,
+          $line-height: 22px,
+          $color: #8f949f
+        );
+      }
+    }
+  }
+  &_barcode_vertical{
+    // border: 1px solid #0d78c8;
+    transform: rotate(-90deg);
+    // position: absolute;
+    // right: 20px;
+  }
 }
