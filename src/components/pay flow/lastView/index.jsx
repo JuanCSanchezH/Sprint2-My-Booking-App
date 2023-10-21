@@ -59,7 +59,7 @@ export const Ticket = () => {
           <p>2h 10m</p>
         </div>
         <div className="info_footer">
-          <p>Check-in:9th Feb 2023 at 21:20</p>
+          <p>Check-in: 9th Feb 2023 at 21:20</p>
           <p>*All time displayed are local</p>
         </div>
       </div>
