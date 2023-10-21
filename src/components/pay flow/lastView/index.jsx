@@ -1,4 +1,5 @@
 import "./style.scss";
+import Barcode from "react-barcode";
 
 export const Ticket = () => {
   return (
@@ -29,7 +30,8 @@ export const Ticket = () => {
           </div>
         </div>
         <div className="info_passenger_name">
-            <h3>Passenger:</h3><h2>ANNA ANDERSON</h2>
+          <h3>Passenger:</h3>
+          <h2>ANNA ANDERSON</h2>
         </div>
         <div className="info_class">
           <img src="https://res.cloudinary.com/dsgfgsjud/image/upload/v1697775157/e-flight/u4xet5jz0lc4mnprjmzb.svg" />
@@ -44,7 +46,6 @@ export const Ticket = () => {
           <p>1:25</p>
           <p>Los Angeles (LAS)</p>
           <p>10 Feb, 2023</p>
-
         </div>
         <div className="info_duration">
           <img src="https://res.cloudinary.com/dsgfgsjud/image/upload/v1697775157/e-flight/lrhbnfguezc5vpcgv9vw.svg" />
@@ -54,20 +55,26 @@ export const Ticket = () => {
           <p>Check-in:9th Feb 2023 at 21:20</p>
           <p>*All time displayed are local</p>
         </div>
+        <div className="info_barcode_vertical">
+          <Barcode value="09197517 3759231 021 21 A" />
+        </div>
       </div>
       <div className="barcode">
-      <h2 className="info_title">
-        <img src="https://res.cloudinary.com/ddsed1j6u/image/upload/v1697320168/Booking-Flight-Sprint/kzc4raqakpiworncmu25.svg" />
-        E-flight
-      </h2>
-      <div className="info_ID">
-        <p>Booking ID</p>
-        <p>65980165</p>
-      </div>
-      <div className="info_airline_code">
-        <p>Airline Booking Code</p>
-        <p>CA-6018</p>
-      </div>
+        <h2 className="info_title">
+          <img src="https://res.cloudinary.com/ddsed1j6u/image/upload/v1697320168/Booking-Flight-Sprint/kzc4raqakpiworncmu25.svg" />
+          E-flight
+        </h2>
+        <div className="info_ID">
+          <p>Booking ID</p>
+          <p>65980165</p>
+        </div>
+        <div className="info_airline_code">
+          <p>Airline Booking Code</p>
+          <p>CA-6018</p>
+        </div>
+        <div className="info_barcode">
+          <Barcode value="09197517 3759231 021 21 A" lineColor="#ffff"/>
+        </div>
       </div>
     </div>
   );
