@@ -65,7 +65,7 @@ export const Ticket = () => {
       </div>
       <div className="barcode">
         <h2 className="barcode_title">
-          <img src="https://res.cloudinary.com/ddsed1j6u/image/upload/v1697320168/Booking-Flight-Sprint/kzc4raqakpiworncmu25.svg" />
+          <img src="https://res.cloudinary.com/dsgfgsjud/image/upload/v1698003495/e-flight/pnuh5cu0kad9nzyxyrm6.png" />
           E-flight
         </h2>
         <div className="barcode_ID">
