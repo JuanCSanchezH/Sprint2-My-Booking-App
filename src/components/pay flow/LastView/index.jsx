@@ -1,18 +1,22 @@
 
 import 'bootstrap/dist/css/bootstrap.min.css'; // Muy importante 
-import PriceDetails from "./priceDetails";
-import FlyDetails from "./flyDetails";
-import Ticket from './lastView';
+import PriceDetails from "../priceDetails";
+import FlyDetails from "../flyDetails";
+import Ticket from '../Ticket';
+import HeaderLastView from '../headerLastView';
+import ButtonLastView from '../Button';
+
 import { Container, Row, Col } from "react-bootstrap";
 
 
-const PayFlow =() =>{
+const LastView =() =>{
     return(
         <Container>
             <Row >
                 <Col sm={8} >
-                    <h1>PayFlow</h1>
+                    <HeaderLastView/>
                     <Ticket/>
+                    <ButtonLastView/>
                 </Col>
                 <Col sm={4}>
                     <PriceDetails/>
@@ -22,4 +26,4 @@ const PayFlow =() =>{
         </Container>
     )
 }
-export default PayFlow;
+export default LastView;
