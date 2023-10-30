@@ -1,6 +1,6 @@
 import Footer from "./components/footer";
 import Navbar from "./components/navbar/index";
-import PayFlow from "./components/pay flow";
+import LastView from "./components/pay flow/LastView";
 
 import "./App.scss";
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <>
       <div className="main">
         <Navbar />
-        <PayFlow />
+        <LastView/>
         <Footer />
       </div>
     </>
