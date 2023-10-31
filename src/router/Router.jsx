@@ -1,6 +1,7 @@
 import React, { createContext, useReducer } from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Login from '../pages/login/Login'
+import Register from '../pages/register/Register'
 import App from '../App'
 import userLoggedReducer, { userLoggedInitial } from '../reducers/userLoggedReducer';
 import PrivatedRoutes from './privatedRoutes';
@@ -28,8 +29,8 @@ const Router = () => {
                         </Route>
                         <Route element={<PublicRoutes isAuthenticate={userLogged.isAuthenticated}/>}>
                             <Route path='login' element={ <Login/>}/>
+                            <Route path='register' element={ <Register />}/>
                         </Route>
-                        {/* <Route path='register' element={ <Register/>}/> */}
                     </Route>
                 </Routes>
             </BrowserRouter>

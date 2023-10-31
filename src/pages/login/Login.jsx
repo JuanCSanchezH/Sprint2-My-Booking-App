@@ -82,7 +82,7 @@ function Login() {
               <figure><img src="https://res.cloudinary.com/ddsed1j6u/image/upload/v1698629336/pngtree-travel-flight-logo-world-globe-vector-image_331555_b7ygpk.jpg"/></figure>
               <h2 className='login-title'>Sign In</h2>
               <div>
-                  <h5>Email</h5>
+                  <h6>Email</h6>
                   <div className={`form-control ${formik.values.email == '' ? '' : formik.errors.email ? 'is-invalid' : 'is-valid'}`}>
                       <input type='hidden' value={formik.values.id}/>
                       <input
@@ -96,7 +96,7 @@ function Login() {
                   {formik.errors.email ? <span className='error-span'>{formik.errors.email}</span> : ''}
               </div>
               <div>
-                  <h5>Password</h5>
+                  <h6>Password</h6>
                   <div className={`form-control ${formik.values.password == '' ? '' : formik.errors.password ? 'is-invalid' : 'is-valid'}`}>
                       <input
                           type='password'
@@ -108,11 +108,11 @@ function Login() {
                   </div>
                   {formik.errors.password ? <span className='error-span'>{formik.errors.password}</span> : ''}
               </div>
+              <button type='submit'>Submit</button>
+              {/* <button type="submit">{isEditing ? "Editar" : "Crear"}</button> */}
+              <span>¿Todavía no tienes una cuenta? <Link to={'/register'}>Regístrate</Link></span>
           </div>
-          <button type='submit'>Submit</button>
-          {/* <button type="submit">{isEditing ? "Editar" : "Crear"}</button> */}
         </form>
-        {/* <span>¿Todavía no tienes una cuenta? <Link to={'/register'}>Regístrate</Link></span> */}
       </main>
     </>
   )
