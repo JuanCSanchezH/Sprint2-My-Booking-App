@@ -1,0 +1,49 @@
+
+@use '../mixins' as *;
+
+.price_details{
+  &_container{
+    height: calc(280px - 16px);
+    @include container-details;
+  }
+
+  &_title{
+    @include title-style;
+    display: flex;
+    align-items: center;
+    & img{
+      margin-right: 6px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  &_basic{
+    @include flex-container;
+  }
+  &_tax{
+    @include flex-container;
+  }
+  &_regular{
+    @include flex-container;
+  }
+  &_save{
+    @include flex-container($color:#FE902B);
+    margin-bottom: 20px;
+    & p:nth-child(2){
+      font-weight: 600;
+    }
+  }
+  &_total{
+    @include flex-container;
+    & p:nth-child(2){
+      color: #11d396;
+      font-size: 16px;
+      font-weight: 600;
+    }
+  }
+}
+
+hr {
+  width: 328px;
+  border: 1px solid #ddd;
+}

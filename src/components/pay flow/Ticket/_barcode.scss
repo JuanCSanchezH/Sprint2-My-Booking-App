@@ -1,0 +1,80 @@
+@use "../mixins.scss" as *;
+
+.barcode {
+  // border: 2px solid red;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 213.16px;
+  height: 343.675px;
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: space-between;
+  // align-items: center;
+  padding: 25px;
+
+  &_title {
+    // border: 1px solid blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    @include title-style(
+      $color: #fefefe,
+      $font-size: 20px,
+      $font-weight: 600,
+      $line-height: 30px
+    );
+    & img{
+      width: 36px;
+      height: 35px;
+      color: #fefefe;
+    }
+  }
+  &_ID{
+    padding:10px 0 10px 0;
+    & p:nth-child(1){
+      margin-block-start: 0;
+      margin-block-end: 0;
+      @include title-style(
+        $color: #6e7786,
+        $font-size: 14px,
+        $font-weight: 500,
+        $line-height: 22px
+      );
+    }
+    & p:nth-child(2){
+      margin-block-start: 0;
+      margin-block-end: 0;
+      @include title-style(
+        $color: #6e7786,
+        $font-size: 24px,
+        $font-weight: 500,
+        $line-height: 36px
+      );
+    }
+  }
+  &_airline_code{
+    padding:10px 0 10px 0;
+    & p:nth-child(1){
+      margin-block-start: 0;
+      margin-block-end: 0;
+      @include title-style(
+        $color: #6e7786,
+        $font-size: 14px,
+        $font-weight: 500,
+        $line-height: 22px
+      );
+    }
+    & p:nth-child(2){
+      margin-block-start: 0;
+      margin-block-end: 0;
+      @include title-style(
+        $color: #6e7786,
+        $font-size: 24px,
+        $font-weight: 500,
+        $line-height: 36px
+      );
+    }
+  }
+}

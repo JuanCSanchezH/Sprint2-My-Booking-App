@@ -1,0 +1,70 @@
+.offcanvas.offcanvas-end {
+    width: 46%;
+}
+.active .bs-stepper-circle{
+    background-color: #11D295;
+}
+
+.active .bs-stepper-label{
+    color: #11D295;
+}
+
+.bs-stepper-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bs-stepper .step-trigger{
+    display: flex;
+    padding: 5px;
+}
+
+.span-title{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    span{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 28px;
+        height: 28px;
+        background-color: #0D78C8;
+        border-radius: 4px;
+    }
+    p{
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        margin: 0;
+    }
+}
+
+.footer{
+    .footer-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-inline: 20px;
+        padding: 20px 0 20px 0;
+        bottom: 0;
+        &__price{
+            display: flex;
+            gap: 8px;
+            h5{color: #FE902B;}
+        }
+        &__btn{
+            display: flex;
+            gap: 10px;
+            span{cursor: pointer;}
+            button{
+                border: none;
+                border-radius: 23px;
+                background-color: #11D295;
+                font-size: 14px;
+                color: white;
+                width: 100px;
+            }
+        }
+    }
+}
