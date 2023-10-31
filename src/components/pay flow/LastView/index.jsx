@@ -6,6 +6,7 @@ import Ticket from '../Ticket';
 import HeaderLastView from '../headerLastView';
 import ButtonLastView from '../Button';
 
+
 import { Container, Row, Col } from "react-bootstrap";
 
 

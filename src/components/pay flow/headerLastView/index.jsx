@@ -1,4 +1,5 @@
 import "./style.scss";
+import {Stepper} from 'react-form-stepper';
 
 const HeaderLastView = () => {
   return (
@@ -6,7 +7,21 @@ const HeaderLastView = () => {
       <div className="headerLastView__title">
         <h1>My Booking</h1>
       </div>
-      <div className="box">
+      <div className="headerLastView__stepper">
+        <Stepper 
+          activeBgColor= "#10d295"
+
+          steps={[
+            { label: "Booking" },
+            { label: "Purchase" },
+            { label: "Get your E-ticket" },
+          ]}
+          activeStep={2}
+          activeColor = "#10d295"
+          completeColor = "#10d295"
+        />
+      </div>
+      {/* <div className="box">
         <div className="group">
           <div className="overlap-group">
             <div className="container">
@@ -23,7 +38,7 @@ const HeaderLastView = () => {
             <span>Get your E-ticket</span>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="headerLastView__container">
         <h2 className="headerLastView__subtitle">
           <img src="https://res.cloudinary.com/dsgfgsjud/image/upload/v1698614191/e-flight/psavx0bm5iqkuhvgoxct.png" />
