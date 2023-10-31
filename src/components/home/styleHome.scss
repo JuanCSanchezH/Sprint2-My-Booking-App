@@ -1,0 +1,740 @@
+@use 'mixins';
+
+.container {
+    &-home {
+        background-color: #fefefe;
+        height: 803px;
+        position: relative;
+        width: 1440px;
+        
+        .overlap {
+            height: 774px;
+            left: 704px;
+            position: absolute;
+            top: 91px;
+            width: 848px;
+        }
+        .group {
+            height: 499px;
+            left: 0;
+            position: absolute;
+            top: 275px;
+            width: 848px;
+        }
+
+        .overlap-group {
+            background-image: url(https://c.animaapp.com/BW7x2fG0/img/image-1.png);
+            background-size: 100% 100%;
+            height: 499px;
+            position: relative;
+            width: 736px;
+            
+            .airplane {
+                height: 102px;
+                left: 284px;
+                position: absolute;
+                top: 110px;
+                width: 237px;
+            }
+            .oval-green {
+                height: 16px;
+                left: 201px;
+                position: absolute;
+                top: 207px;
+                width: 16px;
+            }
+            .oval-red {
+                height: 16px;
+                left: 515px;
+                position: absolute;
+                top: 325px;
+                width: 16px;
+            }
+            .oval-blue {
+                height: 16px;
+                left: 673px;
+                position: absolute;
+                top: 127px;
+                width: 16px;
+            }    
+        }
+
+        .group-2 {
+            background-color: #fefefe;
+            border: 2px solid;
+            border-color: #f2f3f5;
+            border-radius: 117px;
+            box-shadow: 0px 0px 1px #16191e12, 0px 0px 2px #16191e1f;
+            height: 300px;
+            left: 370px;
+            position: absolute;
+            top: 0;
+            width: 234px;
+
+            .overlap-2 {
+                height: 47px;
+                left: 55px;
+                position: absolute;
+                top: 70px;
+                width: 123px;
+
+                .text-wrapper-3 {
+                    color: #6b6bfe;
+                    font-family: "Sarabun", Helvetica;
+                    font-size: 18px;
+                    font-weight: 600;
+                    left: 25px;
+                    letter-spacing: 0;
+                    line-height: 28px;
+                    position: absolute;
+                    text-align: center;
+                    top: 0;
+                    width: 69px;
+                }
+                .text-wrapper-4 {
+                    color: #6b6bfe;
+                    font-family: "Sarabun", Helvetica;
+                    font-size: 14px;
+                    font-weight: 400;
+                    left: 0;
+                    letter-spacing: 0;
+                    line-height: 22px;
+                    position: absolute;
+                    top: 25px;
+                    white-space: nowrap;
+                }
+            }
+
+            .overlap-3 {
+                height: 53px;
+                left: 75px;
+                position: absolute;
+                top: 213px;
+                width: 80px;
+
+                .text-wrapper-5 {
+                    color: #171a1f;
+                    font-family: "Sarabun", Helvetica;
+                    font-size: 24px;
+                    font-weight: 700;
+                    left: 28px;
+                    letter-spacing: 0;
+                    line-height: 36px;
+                    position: absolute;
+                    top: 0;
+                    white-space: nowrap;
+                }
+                .oval-black {
+                    height: 6px;
+                    left: 52px;
+                    position: absolute;
+                    top: 5px;
+                    width: 6px;
+                }
+                .text-wrapper-6 {
+                    color: #8f949f;
+                    font-family: "Sarabun", Helvetica;
+                    font-size: 14px;
+                    font-weight: 400;
+                    left: 0;
+                    letter-spacing: 0;
+                    line-height: 22px;
+                    position: absolute;
+                    top: 31px;
+                    white-space: nowrap;
+                }
+            }
+
+            .overlap-group-wrapper {
+                background-image: url(https://c.animaapp.com/BW7x2fG0/img/oval-1-5.svg);
+                background-size: 100% 100%;
+                height: 64px;
+                left: 82px;
+                position: absolute;
+                top: 135px;
+                width: 64px;
+
+                .oval-wrapper {
+                    background-image: url(https://c.animaapp.com/BW7x2fG0/img/oval-1-6.svg);
+                    background-size: 100% 100%;
+                    height: 52px;
+                    left: 6px;
+                    position: relative;
+                    top: 6px;
+                    width: 52px;
+
+                    .oval-pink {
+                        height: 38px;
+                        left: 7px;
+                        position: absolute;
+                        top: 7px;
+                        width: 38px;
+                    }
+                }
+            }
+
+            .overlap-4 {
+                height: 10px;
+                left: 19px;
+                position: absolute;
+                top: 50px;
+                width: 196px;
+
+                .line {
+                    height: 2px;
+                    left: 0;
+                    position: absolute;
+                    top: 5px;
+                    width: 196px;
+                }
+                .rectangle {
+                    background-color: #dde0e5;
+                    border-radius: 5px;
+                    height: 10px;
+                    left: 84px;
+                    position: absolute;
+                    top: 0;
+                    width: 28px;
+                }
+            }
+            
+            .text-wrapper-7 {
+                color: #8f949f;
+                font-family: "Sarabun", Helvetica;
+                font-size: 14px;
+                font-weight: 400;
+                left: 100px;
+                letter-spacing: 0;
+                line-height: 22px;
+                position: absolute;
+                top: 14px;
+                white-space: nowrap;
+            }
+        }
+
+        .tag {
+            height: 36px;
+            left: 409px;
+            position: absolute;
+            top: 144px;
+            width: 84px;
+                
+                .icon-2 {
+                    height: 20px;
+                    left: 52px;
+                    position: absolute;
+                    top: 8px;
+                    width: 20px;
+                }
+        }
+
+        .line-2 {
+            height: 28px;
+            left: 384px;
+            position: absolute;
+            top: 148px;
+            width: 1px;
+        }
+
+        .frame-wrapper {
+            height: 36px;
+            left: 259px;
+            position: absolute;
+            top: 144px;
+            width: 101px;
+
+            .frame-2 {
+                background-color: #ecfdf7;
+                border-radius: 18px;
+                height: 36px;
+                overflow: hidden;
+                position: relative;
+
+                .text-wrapper-9 {
+                    color: #0a7956;
+                    font-family: "Sarabun", Helvetica;
+                    font-size: 14px;
+                    font-weight: 400;
+                    left: 38px;
+                    letter-spacing: 0;
+                    line-height: 22px;
+                    position: absolute;
+                    top: 6px;
+                    white-space: nowrap;
+                }
+            }
+        }
+
+        .tag-2 {
+            height: 36px;
+            left: 132px;
+            position: absolute;
+            top: 144px;
+            width: 114px;
+
+            .frame-3 {
+                background-color: #f2f3f5;
+                border-radius: 18px;
+                height: 36px;
+                overflow: hidden;
+                position: relative;
+
+                .text-wrapper-10 {
+                    color: #323842;
+                    font-family: "Sarabun", Helvetica;
+                    font-size: 14px;
+                    font-weight: 400;
+                    left: 38px;
+                    letter-spacing: 0;
+                    line-height: 22px;
+                    position: absolute;
+                    top: 6px;
+                    white-space: nowrap;
+                }
+            }
+        }
+
+        .tag-3 {
+            height: 36px;
+            left: 509px;
+            position: absolute;
+            top: 144px;
+            width: 132px;
+
+            .frame-4 {
+                height: 20px;
+                left: 100px;
+                position: absolute;
+                top: 8px;
+                width: 20px;
+            }
+        }
+
+        .group-3 {
+            background-color: #6b6bfe;
+            border-radius: 6px;
+            box-shadow: 0px 0px 1px #6b6bfe12, 0px 0px 2px #6b6bfe1f;
+            height: 100px;
+            left: 132px;
+            position: absolute;
+            top: 204px;
+            width: 507px;
+
+            .frame-5 {
+                height: 20px;
+                left: 249px;
+                position: absolute;
+                top: 40px;
+                width: 20px;
+            }
+            .textbox {
+                border-radius: 4px;
+                height: 51px;
+                left: 40px;
+                position: absolute;
+                top: 19px;
+                width: 183px;
+
+                .text-wrapper-11 {
+                    background-color: #6b6bfe;
+                    color: #ffffff;
+                    font-family: "Sarabun", Helvetica;
+                    font-size: 14px;
+                    font-weight: 400;
+                    left: 12px;
+                    letter-spacing: 0;
+                    line-height: 22px;
+                    position: absolute;
+                    top: 26px;
+                    white-space: nowrap;
+                    border: none;
+                }
+            }
+
+            .textbox-2 {
+                border-radius: 4px;
+                height: 51px;
+                left: 295px;
+                position: absolute;
+                top: 21px;
+                width: 183px;
+            
+                .text-wrapper-13 {
+                    background-color: #6b6bfe;
+                    color: #ffffff;
+                    font-family: "Sarabun", Helvetica;
+                    font-size: 14px;
+                    font-weight: 400;
+                    left: 12px;
+                    letter-spacing: 0;
+                    line-height: 22px;
+                    position: absolute;
+                    top: 26px;
+                    white-space: nowrap;
+                    border: none;
+                }
+            }
+
+            .line-3 {
+                height: 1px;
+                left: 295px;
+                object-fit: cover;
+                position: absolute;
+                top: 75px;
+                width: 181px;
+            }
+            .line-4 {
+                height: 1px;
+                left: 43px;
+                object-fit: cover;
+                position: absolute;
+                top: 75px;
+                width: 181px;
+            }
+            .text-wrapper-11::placeholder,
+            .text-wrapper-13::placeholder{
+                color: #ffffff;
+            }
+        }
+
+        .text-wrapper-14 {
+            color: #171a1f;
+            font-family: "Sarabun", Helvetica;
+            font-size: 40px;
+            font-weight: 700;
+            left: 132px;
+            letter-spacing: 0;
+            line-height: 56px;
+            position: absolute;
+            top: 63px;
+            white-space: nowrap;
+        }
+        .button {
+            all: unset;
+            background-color: #fe902a;
+            border-radius: 22px;
+            box-sizing: border-box;
+            height: 44px;
+            left: 132px;
+            overflow: hidden;
+            position: absolute;
+            top: 328px;
+            width: 167px;
+            cursor: pointer;
+
+
+            .text-wrapper-15 {
+                color: #fefefe;
+                font-family: "Sarabun", Helvetica;
+                font-size: 16px;
+                font-weight: 400;
+                left: 44px;
+                letter-spacing: 0;
+                line-height: 26px;
+                position: absolute;
+                top: 8px;
+                white-space: nowrap;
+            }
+            .icon-5 {
+                height: 20px;
+                left: 18px;
+                position: absolute;
+                top: 12px;
+                width: 20px;
+            }
+        }
+
+        .button-2 {
+            all: unset;
+            border-radius: 22px;
+            box-sizing: border-box;
+            height: 44px;
+            left: 132px;
+            overflow: hidden;
+            position: absolute;
+            top: 388px;
+            width: 167px;
+            cursor: pointer;
+
+            .text-wrapper-16 {
+                color: #fe902a;
+                font-family: "Sarabun", Helvetica;
+                font-size: 16px;
+                font-weight: 400;
+                left: 47px;
+                letter-spacing: 0;
+                line-height: 26px;
+                position: absolute;
+                top: 8px;
+                white-space: nowrap;
+            }
+            .icon-6 {
+                height: 20px;
+                left: 21px;
+                position: absolute;
+                top: 12px;
+                width: 20px;
+            }
+        }
+
+        .calendary {
+            
+            height: 330px;
+            left: 327px;
+            position: absolute;
+            top: 328px;
+            width: 360px;
+        }
+        .overlap-5 {
+            border-radius: 6px;
+            height: 100px;
+            left: 647px;
+            position: absolute;
+            top: 204px;
+            width: 46px;
+
+            .button-3 {
+                all: unset;
+                background-color: #10d295;
+                border-radius: 6px;
+                box-shadow: 0px 0px 1px #10d29512, 0px 0px 2px #10d2951f;
+                box-sizing: border-box;
+                height: 100px;
+                left: 0;
+                overflow: hidden;
+                position: absolute;
+                top: 0;
+                width: 46px;
+                cursor: pointer;
+                .icon-7 {
+                    height: 20px;
+                    left: 13px;
+                    position: absolute;
+                    top: 40px;
+                    width: 20px;
+                }
+            }
+        }
+          
+    }
+
+    .icon-1 {
+        height: 20px;
+        left: 12px;
+        position: absolute;
+        top: 8px;
+        width: 20px;
+    }
+    .frame {
+        background-color: #efeffe;
+        border-radius: 18px;
+        height: 36px;
+        overflow: hidden;
+        position: relative;
+    }
+    .text-wrapper-8 {
+        color: #6b6bfe;
+        font-family: "Sarabun", Helvetica;
+        font-size: 14px;
+        font-weight: 400;
+        left: 38px;
+        letter-spacing: 0;
+        line-height: 22px;
+        position: absolute;
+        top: 6px;
+        white-space: nowrap;
+    }
+    .text-wrapper-12 {
+        color: #dde0e5;
+        font-family: "Sarabun", Helvetica;
+        font-size: 14px;
+        font-weight: 700;
+        left: 12px;
+        letter-spacing: 0;
+        line-height: 22px;
+        position: absolute;
+        top: 2px;
+        white-space: nowrap;
+    }
+
+    &-maps {
+        background-color: #f7f8f9;
+        border-radius: 4px;
+        height: 760px;
+        position: relative;
+        width: 1440px;
+
+        .icon-7 {
+            height: 24px;
+            left: 132px;
+            position: absolute;
+            top: 93px;
+            width: 24px;
+        }
+        .trip-from {
+            color: transparent;
+            font-family: "Sarabun", Helvetica;
+            font-size: 24px;
+            font-weight: 700;
+            left: 168px;
+            letter-spacing: 0;
+            line-height: 36px;
+            position: absolute;
+            top: 63px;
+            white-space: nowrap;
+
+            .text-wrapper-17 {
+                color: #171a1f;
+            }
+            .span {
+                color: #0da675;
+            }
+        }
+
+        .button-4 {
+            all: unset;
+            background-color: #171a1f;
+            border-radius: 18px;
+            box-sizing: border-box;
+            height: 36px;
+            left: 1174px;
+            overflow: hidden;
+            position: absolute;
+            top: 64px;
+            width: 134px;
+
+            .text-wrapper-18 {
+                color: #fefefe;
+                font-family: "Sarabun", Helvetica;
+                font-size: 14px;
+                font-weight: 400;
+                left: 12px;
+                letter-spacing: 0;
+                line-height: 22px;
+                position: absolute;
+                top: 6px;
+                white-space: nowrap;
+            }
+        }
+
+        .img-maps {
+            height: 353px;
+            left: 132px;
+            position: absolute;
+            top: 132px;
+            width: 1176px;
+        }
+        .group-4 {
+            background-color: #fefefe;
+            border: 1px solid;
+            border-color: #fef6ef;
+            border-radius: 8px;
+            box-shadow: 0px 0px 1px #16191e12, 0px 0px 2px #16191e1f;
+            height: 179px;
+            left: 132px;
+            overflow: hidden;
+            position: absolute;
+            top: 517px;
+            width: 572px;
+        }
+        .group-5 {
+            background-color: #fefefe;
+            border: 1px solid;
+            border-color: #fef6ef;
+            border-radius: 8px;
+            box-shadow: 0px 2px 5px #16191e17, 0px 0px 2px #16191e1f;
+            height: 179px;
+            left: 736px;
+            overflow: hidden;
+            position: absolute;
+            top: 517px;
+            width: 572px;
+        }     
+        @include mixins.maps;
+    }
+
+    &-new {
+        background-color: #fefefe;
+        height: 762px;
+        position: relative;
+        width: 1440px;
+
+        .what-s-new {
+            color: #171a1f;
+            font-family: "Sarabun", Helvetica;
+            font-size: 48px;
+            font-weight: 700;
+            left: 587px;
+            letter-spacing: 0;
+            line-height: 68px;
+            position: absolute;
+            text-align: center;
+            top: 63px;
+            white-space: nowrap;
+        }
+        .button-5 {
+            all: unset;
+            background-color: #10d295;
+            border-radius: 22px;
+            box-sizing: border-box;
+            height: 44px;
+            left: 646px;
+            overflow: hidden;
+            position: absolute;
+            top: 654px;
+            width: 161px;
+            cursor: pointer;
+
+            .text-wrapper-22 {
+                color: #fefefe;
+                font-family: "Sarabun", Helvetica;
+                font-size: 16px;
+                font-weight: 400;
+                left: 16px;
+                letter-spacing: 0;
+                line-height: 26px;
+                position: absolute;
+                top: 8px;
+                white-space: nowrap;
+            }
+        }
+
+        .group-6 {
+            background-color: #fefefe;
+            border: 1px solid;
+            border-radius: 8px;
+            box-shadow: 0px 0px 1px #16191e12, 0px 0px 2px #16191e1f;
+            height: 446px;
+            left: 532px;
+            overflow: hidden;
+            position: absolute;
+            top: 170px;
+            width: 376px;
+        }
+        .group-7 {
+            background-color: #fefefe;
+            border: 1px solid;
+            border-radius: 8px;
+            box-shadow: 0px 0px 1px #16191e12, 0px 0px 2px #16191e1f;
+            height: 446px;
+            left: 132px;
+            overflow: hidden;
+            position: absolute;
+            top: 170px;
+            width: 376px;
+        }
+        .group-8 {
+            background-color: #fefefe;
+            border: 1px solid;
+            border-radius: 8px;
+            box-shadow: 0px 0px 1px #16191e12, 0px 0px 2px #16191e1f;
+            height: 446px;
+            left: 932px;
+            overflow: hidden;
+            position: absolute;
+            top: 170px;
+            width: 376px;
+        }
+        @include mixins.new;
+    }
+}

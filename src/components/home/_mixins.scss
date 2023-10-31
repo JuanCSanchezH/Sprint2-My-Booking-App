@@ -1,0 +1,167 @@
+@mixin maps {
+    .text-wrapper-19 {
+        color: #171a1f;
+        font-family: "Sarabun", Helvetica;
+        font-size: 24px;
+        font-weight: 700;
+        left: 314px;
+        letter-spacing: 0;
+        line-height: 36px;
+        position: absolute;
+        top: 18px;
+        white-space: nowrap;
+    }
+    .text-wrapper-20 {
+        color: #8f949f;
+        font-family: "Sarabun", Helvetica;
+        font-size: 14px;
+        font-weight: 400;
+        left: 350px;
+        letter-spacing: 0;
+        line-height: 22px;
+        position: absolute;
+        top: 92px;
+        white-space: nowrap;
+    }
+    .img-1 {
+        height: 179px;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 298px;
+    }
+
+    .overlap-6 {
+        height: 26px;
+        left: 314px;
+        position: absolute;
+        top: 91px;
+        width: 26px;
+
+        .overlap-group {
+            border-radius: 4px;
+            height: 26px;
+            position: relative;
+
+            .rectangle {
+                background-color: #f1c162;
+                border-radius: 4px;
+                height: 26px;
+                left: 0;
+                position: absolute;
+                top: 0;
+                width: 26px;
+            }
+            .icon-8 {
+                height: 16px;
+                left: 4px;
+                position: absolute;
+                top: 4px;
+                width: 16px;
+            }
+        }
+    }
+
+    .text-wrapper-21 {
+        color: #6b6bfe;
+        font-family: "Sarabun", Helvetica;
+        font-size: 18px;
+        font-weight: 600;
+        left: 516px;
+        letter-spacing: 0;
+        line-height: 28px;
+        position: absolute;
+        top: 134px;
+        white-space: nowrap;
+    }
+    .p {
+        color: #323842;
+        font-family: "Sarabun", Helvetica;
+        font-size: 14px;
+        font-weight: 400;
+        left: 314px;
+        letter-spacing: 0;
+        line-height: 22px;
+        position: absolute;
+        top: 58px;
+        white-space: nowrap;
+    }
+}
+
+@mixin new {
+    .p-2 {
+        color: #171a1f;
+        font-family: "Sarabun", Helvetica;
+        font-size: 24px;
+        font-weight: 700;
+        left: 24px;
+        letter-spacing: 0;
+        line-height: 36px;
+        position: absolute;
+        top: 300px;
+        width: 328px;
+    }
+
+    .tag-4 {
+        height: 28px;
+        left: 269px;
+        position: absolute;
+        top: 394px;
+        width: 77px;
+
+        .frame-6 {
+            background-color: #f2f3f5;
+            border-radius: 14px;
+            height: 28px;
+            overflow: hidden;
+            position: relative;
+
+            .text-wrapper-23 {
+                color: #323842;
+                font-family: "Sarabun", Helvetica;
+                font-size: 12px;
+                font-weight: 400;
+                left: 8px;
+                letter-spacing: 0;
+                line-height: 20px;
+                position: absolute;
+                top: 3px;
+                white-space: nowrap;
+            }
+        }
+    }
+
+    .text-wrapper-24 {
+        color: #10d295;
+        font-family: "Sarabun", Helvetica;
+        font-size: 16px;
+        font-weight: 400;
+        left: 24px;
+        letter-spacing: 0;
+        line-height: 26px;
+        position: absolute;
+        top: 279px;
+        white-space: nowrap;
+    }
+
+    .text-wrapper-25 {
+        color: #8f949f;
+        font-family: "Sarabun", Helvetica;
+        font-size: 14px;
+        font-weight: 400;
+        left: 24px;
+        letter-spacing: 0;
+        line-height: 22px;
+        position: absolute;
+        top: 396px;
+        white-space: nowrap;
+    }
+
+    .img-2 {
+        height: 256px;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 376px;
+    }
+}
