@@ -1,0 +1,104 @@
+@mixin cloudySpan(){
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    span{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 28px;
+        height: 28px;
+        background-color: #0D78C8;
+        border-radius: 4px;
+    }
+    p{
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        margin: 0;
+    }
+}
+
+@mixin conditions(){
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    padding: 12px;
+    width: 50%;
+    .text{
+        color: #8F949F;
+        font-size: 14px;
+        font-weight: 400;
+        margin-top: 8px;
+    }
+}
+
+.benefits-container{
+    background-color: #F7F8F9;
+    padding: 16px;
+    h5{
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        font-weight: 600;
+        height: 26px;
+        margin: 0;
+    }
+    .place{@include cloudySpan();}
+    &__conditions{
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        margin: 8px 0 16px 0;
+        p{margin: 0;}
+        .places__class{
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            img{height: 100%;}
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            margin: 5px;
+            &--ref{color: #0EA676;}
+            &--economy{color: #FE902B;}
+        }
+        &__origin{@include conditions();}
+        &__destination{@include conditions();}
+    }
+    &__price-details{
+        background-color: #FFFFFF;
+        padding: 12px;
+        margin-top: 8px;
+        span{
+            display: flex;
+            justify-content: space-between;
+            color: #323842;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        .save p{
+            margin: 0;
+            color: #FE902B;
+        }
+        .total{color: #0EA676;}
+    }
+    &__baggage-price{
+        display: flex;
+        gap: 16px;
+        margin: 8px 0 16px 0;
+        &__content{
+            @include conditions();
+            span{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                img{height: 20px;}
+            }
+            p{margin: 0 0 4px 0;}
+            .place{
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+}
