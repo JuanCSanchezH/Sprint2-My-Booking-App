@@ -4,6 +4,7 @@ import Button from 'react-bootstrap/Button';
 import React, { useState, useEffect } from 'react';
 import Passenger from './index';
 import Payment from './index';
+import LastView from '../LastView';
 
 
 
@@ -61,7 +62,7 @@ const MyStepper = () => {
         case 1:
           return <Payment />;
         case 2:
-          return "contenido de esteban";
+          return <LastView/>;
         default:
           return null;
       }

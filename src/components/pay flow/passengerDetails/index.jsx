@@ -3,6 +3,7 @@ import { useFormik } from 'formik';
 import './style.scss';
 import * as Yup from 'yup'; // Importa Yup para las validaciones
 import Form from 'react-bootstrap/Form';
+import FlyDetails from '../flyDetails';
 
 function Passenger() {
   const [usersList, setUsersList] = useState([]);

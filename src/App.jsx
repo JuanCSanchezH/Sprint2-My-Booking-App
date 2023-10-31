@@ -1,17 +1,17 @@
 import Footer from "./components/footer";
 import Navbar from "./components/navbar/index";
 import LastView from "./components/pay flow/LastView";
+import SecondView from "./components/pay flow/contact";
 
 import "./App.scss";
-import MyStepper from "./components/pay flow/passengerDetails/stepper";
 
 function App() {
   return (
     <>
       <div className="main">
         <Navbar />
-        <LastView/>
-        <MyStepper />
+        {/* <LastView/> */}
+        <SecondView />
         <Footer />
       </div>
     </>
