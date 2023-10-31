@@ -1,0 +1,230 @@
+.main{
+    form{
+        h3{
+            color: #6C6CFE;
+            font-family: Sarabun;
+            font-size: 20px;
+            font-weight: 700;
+            gap: 30px;
+        }
+        h5{
+            font-size: 14px;
+            font-family: Sarabun;
+            color: #424955;
+            font-weight: bold;
+            span{
+            font-size: 14px;
+            font-family: Sarabun;
+            color: #565E6C;
+            }
+        }
+        .complete-name{
+            display: flex;
+            gap: 21px;
+            margin-top: 20px;
+            .form-control{
+                background-color: #F2F3F5;
+                border-radius: 18px;
+                input{
+                    background-color: #F2F3F5;
+                    border: none;
+                    width: 350px;
+                    outline-width: 0;
+                    &::placeholder{
+                        color: #BBC0C9;
+                    }
+                }
+            }
+        }
+        .data-containers{
+            display: flex;
+            gap: 21px;
+            margin-top: 30px;
+            .form-control {
+                background-color: #F2F3F5;
+                border-radius: 18px;
+                width: 246px;
+                height: 40px;
+                
+                select {
+                  background-color: #F2F3F5;
+                  border: none;
+                  width: 226px;
+                  outline-width: 0;
+                  height: 30px;
+                  padding-top: 0;
+                  color: #BBC0C9;
+                  
+          
+                  &::placeholder {
+                    color: #BBC0C9;
+                    
+                  }
+                }
+              }
+              .birthday-input{
+                input{
+                background-color: #F2F3F5;
+                    border: none;
+                    width: 200px;
+                    outline-width: 0;
+                    color: #BBC0C9;
+                    &::placeholder{
+                        color: #BBC0C9;
+                    }
+              }
+            }
+              
+              .title-select {
+                
+                
+              }
+      
+    }
+    h3{
+        margin-top: 40px;
+        gap: 50px;
+    }
+    .container-text{
+        background-color: #EFEFFE;
+        width: 770px;
+        border-radius: 6px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+        h6{
+            padding: 16px 52px 16px 16px;
+            font-size: 14px;
+            color: #6C6CFE;
+            font-family: Sarabun;
+        }
+
+    }
+    .passport-container{
+        display: flex;
+        flex-direction: column;
+        .form-control{
+            background-color: #F2F3F5;
+            border-radius: 18px;
+            width: 780px;
+            input{
+                background-color: #F2F3F5;
+                border: none;
+                width: 700px;
+                outline-width: 0;
+                &::placeholder{
+                    color: #BBC0C9;
+                }
+            }
+        }
+    }
+    .identity-container{
+        display: flex;
+        gap: 21px;
+        margin-top: 30px;
+        .form-control {
+            background-color: #F2F3F5;
+            border-radius: 18px;
+            width: 380px;
+            height: 40px;
+            
+            select {
+              background-color: #F2F3F5;
+              border: none;
+              width: 348px;
+              outline-width: 0;
+              height: 30px;
+              padding-top: 0;
+              color: #BBC0C9;
+              
+      
+              &::placeholder {
+                color: #BBC0C9;
+                
+              }
+            }
+          }
+          .passportExpireDate-input{
+            input{
+            background-color: #F2F3F5;
+                border: none;
+                width: 338px;
+                outline-width: 0;
+                color: #BBC0C9;
+                &::placeholder{
+                    color: #BBC0C9;
+                }
+          }
+        }
+          
+          .title-select {
+            // Estilos específicos para el Form.Select con la clase title-select
+            // Agrega aquí los estilos que deseas aplicar
+            
+          }
+    .complete-name{
+            display: flex;
+            gap: 21px;
+            margin-top: 20px;
+            .form-control{
+                background-color: #F2F3F5;
+                border-radius: 18px;
+                input{
+                    background-color: #F2F3F5;
+                    border: none;
+                    width: 350px;
+                    outline-width: 0;
+                    &::placeholder{
+                        color: #BBC0C9;
+                    }
+                }
+            }
+        }
+        .data-containers{
+            display: flex;
+            gap: 21px;
+            margin-top: 30px;
+            .form-control {
+                background-color: #F2F3F5;
+                border-radius: 18px;
+                width: 246px;
+                height: 40px;
+                
+                select {
+                  background-color: #F2F3F5;
+                  border: none;
+                  width: 226px;
+                  outline-width: 0;
+                  height: 30px;
+                  padding-top: 0;
+                  color: #BBC0C9;
+                  
+          
+                  &::placeholder {
+                    color: #BBC0C9;
+                    
+                  }
+                }
+              }
+              .birthday-input{
+                input{
+                background-color: #F2F3F5;
+                    border: none;
+                    width: 200px;
+                    outline-width: 0;
+                    color: #BBC0C9;
+                    &::placeholder{
+                        color: #BBC0C9;
+                    }
+              }
+            }
+              
+              .title-select {
+                
+                
+              }
+      
+    }
+
+}
+}}
