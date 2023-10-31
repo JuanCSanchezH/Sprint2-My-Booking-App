@@ -48,6 +48,17 @@ main{
                 font-size: 12px;
                 font-style: italic;
             }
+            button{
+                border-radius: 18px;
+                border: none;
+                width: 200px;
+                height: 30px;
+                background-color: #11D295;
+                color: white;
+                cursor: pointer;
+                font-size: 14px;
+                margin-top: 10px;
+            }
             span{font-size: 14px;}
         }
     }    

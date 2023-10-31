@@ -110,7 +110,7 @@ function Login() {
               </div>
               <button type='submit'>Submit</button>
               {/* <button type="submit">{isEditing ? "Editar" : "Crear"}</button> */}
-              <span>¿Todavía no tienes una cuenta? <Link to={'/register'}>Regístrate</Link></span>
+              <span>Don't you have an account? <Link to={'/register'}>Register</Link></span>
           </div>
         </form>
       </main>
